@@ -3,19 +3,32 @@ body{
     background-size: 100%;
 }
 .pghead{
-    padding: 1vw;
+    position:absolute;
+    top: 1.25vh;
+    font-size: 5vh;
+    transform : translateX(-100%);
+    font-family: 'Press Start 2P', cursive;
+    color: rgb(31, 31, 31);
+    animation: title 15s infinite linear;
+}
+.box{
     position:absolute;
     top: 5vh;
     left: 23vw;
+    height: 7.5vh;
+    width: 60vw;
     background-color: rgb(65, 150, 65);
-    font-size: 5vh;
-    font-family: 'Press Start 2P', cursive;
-    color: rgb(31, 31, 31);
-    text-shadow: 0px 0px 15px rgb(17, 167, 3);
     border-style: solid;
     border-width: 8.5px;
     border-color: rgb(94, 93, 93);
     box-shadow: 0px 0px 15px 7.5px white;
+    overflow: hidden;
 }
-.box{
+@keyframes title{
+    0%{
+        transform: translateX(-100%);
+    }
+    100%{
+        transform: translateX(100%);
+    }
 }
