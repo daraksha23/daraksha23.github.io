@@ -1,5 +1,11 @@
-body{
-    background-color: #181818;
+#bgvid{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    z-index: -5;
 }
 .cont{
     overflow: hidden;
@@ -73,8 +79,8 @@ body{
     top: 1.25vh;
     font-size: 5vh;
     transform : translateX(-100%);
-    font-family: 'Press Start 2P', cursive;
-    color: rgb(31, 31, 31);
+    font-family: 'Orbitron', sans-serif;
+    color: rgb(19, 94, 255);
     animation: title 15s infinite linear;
 }
 .box{
@@ -83,11 +89,11 @@ body{
     left: 18.5vw;
     height: 7.5vh;
     width: 60vw;
-    background-color: rgb(65, 150, 65);
+    background-color: transparent;
     border-style: solid;
-    border-width: 8.5px;
-    border-color: rgb(94, 93, 93);
-    box-shadow: 0px 0px 15px 7.5px white;
+    border-width: 3.5px;
+    border-color: rgb(19, 34, 255);
+    box-shadow: 0px 0px 15px 7.5px rgb(89, 166, 255);
     overflow: hidden;
 }
 @keyframes title{
