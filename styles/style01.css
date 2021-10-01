@@ -9,6 +9,9 @@
 }
 .cont{
     overflow: hidden;
+    align-items: center;
+    display: flex;
+    justify-content: center;
 }
 .aboutme{
     padding: 0.1%;
@@ -16,7 +19,6 @@
     padding-right: 0.5%;
     position: absolute;
     top: 35vh;
-    left: 40vw;
     font-size: 6.5vh;
     font-family: 'Orbitron', sans-serif;
     color: rgb(201, 0, 0);
@@ -32,7 +34,6 @@
     padding-right: 0.5%;
     position: absolute;
     top: 50vh;
-    left: 35.75vw;
     font-size: 6.5vh;
     font-family: 'Orbitron', sans-serif;
     color: rgb(201, 0, 0);
@@ -48,7 +49,6 @@
     padding-right: 0.5%;
     position: absolute;
     top: 65vh;
-    left: 43.5vw;
     font-size: 6.5vh;
     font-family: 'Orbitron', sans-serif;
     color: rgb(201, 0, 0);
@@ -64,7 +64,6 @@
     padding-right: 0.5%;
     position: absolute;
     top: 80vh;
-    left: 41vw;
     font-size: 6.5vh;
     font-family: 'Orbitron', sans-serif;
     color: rgb(201, 0, 0);
