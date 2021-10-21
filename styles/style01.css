@@ -1,3 +1,8 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 #bgvid{
     position: absolute;
     top: 0;
@@ -58,6 +63,9 @@
     border-radius: 10px;
     box-shadow: 0px 0px 10px rgb(255, 0, 0);
 }
+.lnk{
+    color: rgb(201, 0, 0);
+}
 .projects{
     padding: 0.1%;
     padding-left: 0.5%;
@@ -102,4 +110,40 @@
     100%{
         transform: translateX(100%);
     }
+}
+
+.title{
+    font-size: 3.25vw;    
+    font-family: 'Ephesis', cursive;
+    font-weight: bolder;
+    font-style: italic;
+    color:whitesmoke;
+    padding-left: 5vw;
+}
+
+.me{
+    position:absolute;
+    top: 15vh;
+    height: 25vh;
+    width: 25vh;
+    border-color: rgb(238, 245, 255);
+    box-shadow: 0px 0px 15px 7.5px rgb(164, 237, 255);
+    border-style: solid;
+    border-radius: 50%;
+    border-width: 5px;
+    z-index: 1;
+}
+
+.content{
+    position: absolute;
+    top: 27.5vh;
+    height: 50vh;
+    width: 60vw;
+    background-color: transparent;
+    z-index: -1;
+    border-color: rgb(238, 245, 255);
+    box-shadow: 0px 0px 20px 10px rgb(164, 237, 255);
+    border-style: solid;
+    border-radius: 50px;
+    border-width: 5px;
 }
